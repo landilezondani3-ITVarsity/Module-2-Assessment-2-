@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pine City Mall</title>
+</head>
+<body>
+    <header>
+        <div id="mobile" class="logo">
+            <img src="images/mall%20logo.png">
+        </div>
+        <div id="mobile" class="Menu-btn">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="pages">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="map.html">Map</a>
+                <a href="shops.html">Stores</a>
+                <a href="movies.html">Movies</a>
+                <a id="contact-btn" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="Contact-btn">
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <main>
+        <h2>Contact</h2>
+        <div class="about">
+            <strong><p>Address :</p></strong>40 Jack RD,Ilanga,Durban,4025
+        <br><br>
+            <strong><p>Email :</p></strong>Pine@citynet
+            <br><br>  
+            <strong><p>Contact :</p></strong>085 447 453
+            <br><br>
+            <strong><p>Business hours :</p></strong>Mon-Thurs:09h00-20h00
+Fri-Sun:08h00-23h00
+Public Holidays:08h00-22h00
+            <br><br>
+            <div id="content">
+               <div id="main">
+             <div id="info-box-full">
+                  <img src="images/mall%20city.jpg" height="500">
+                  <h3>WE'D LOVE TO HEAR FROM YOU!</h3>
+                 <p>We always strive to do best, so your feedback is very imptortant to us.Please fill in the form below.</p>
+                 
+                 <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <br><br>
+    
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
+      <br><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+        <option value="rsa">RSA</option>
+    </select>
+      <br><br>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+             </div>    
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
